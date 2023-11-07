@@ -6,7 +6,7 @@ import chalk from 'chalk';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
-const port = process.env.PORT || 3300;
+const port = 3300;
 import userRoutes from './routes/userRoutes.js';
 import gameRoutes from './routes/gameRoutes.js';
 import refresh from './routes/refresh.js';
